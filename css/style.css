@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+  overflow-x: hidden;
+ font-family: 'Arvo', serif;
+  max-width: 100%;
+}
+
+/* Typhography */
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size:72px;
+	text-align: center;
+	color: #fff;
+  text-transform: uppercase;
+
+}
+h2{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+  color:#000000;
+}
+h3{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+   color:#000000;
+}
+
+ h4{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+  text-align: center;
+}
+h5{
+   font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.text-muted {
+  color: #777777;
+  text-align: center;
+}
+
+/* Navigation */
+
+.navbar-default{
+  background-color: rgba(0,0,0,0.0);
+  border: none;
+}
+.navbar-custom {
+  background-color: rgba(0,0,0,1);
+  height: 60px;
+  font-family: Arvo;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.navbar-custom .navbar-brand{ 
+  font-family: 'Magneto ', bold;
+  font-size: 30px;
+  padding: 20px 0px 0px 10px;
+}
+#navbar a{
+  color:#fff;
+  letter-spacing: 2px;
+}
+#navbar a:hover{
+  color:#c30000;
+}
+.navbar-brand{
+  color: #fc0214 !important;
+  font-size:35px;
+  font-family: Arvo;
+}
+.navbar-default .navbar-toggle{
+  background: rgba(0,0,0,1);
+  text-align: center;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background: rgba(0,0,0,1);
+  text-align: center;
+}
+.navbar-default .navbar-collapse{
+  background: rgba(0,0,0,0.0);
+  text-align: center;
+}
+.navbar-custom .navbar-collapse{
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus{
+  background:rgba(0,0,0,0.5) ;
+}
+/* Header  */
+
+
+.header{
+	max-width:100%;
+	min-height: 700px;
+	padding: 180px 0 30px;
+	background-image: url('../images/bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.header p{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size:30px;
+	color: #fff;
+  letter-spacing: 1px;
+
+
+	}
+.header .btn{
+  background-color:#fc0214 ;
+  padding: 15px;
+  border-color: #fc0214;
+  font-size: 12px;
+  font-family: 'Arvo', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header .btn:hover{
+background-color: #c30000;
+color:fff !important;
+}
+
+/* About Me */
+
+.AboutMe{
+	margin-top: 30px;
+	padding-bottom:50px;
+}
+.AboutMe p{
+font-family: 'Arvo', serif;
+	font-size: 14px;
+	line-height: 2;
+}
+
+/* What I Can Do */
+
+.CanDo{
+	background-color: #f5f5f5;
+	text-align: center;	
+}
+.CanDo p{
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	line-height: 2;
+  width:100%;
+}
+.CanDo i {
+	background-color: #fc0214;
+	color:#ffffff;
+	font-size: 30px;
+	height: 80px;
+	width: 80px;
+	padding: 25px 20px;
+	border-radius: 50%;
+
+}
+.CanDo ul li{
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	padding-top: 3px;
+}
+
+/* Portfolio */
+
+#Portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#Portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 295px;
+  margin: 0 auto;
+}
+#Portfolio .portfolio-item .portfolio-link .portfolio-hover {
+ background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#Portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#Portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#Portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+/* Contact Us */
+.contact{
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.contact .input-group{
+  margin-bottom: 25px;
+}
+.contact .form-group{
+  border-radius:0!important;
+}
+.control span{
+  border-radius: 0;
+}
+.contact .btn{
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #fc0214;
+  color: #fff;
+}
+.contact .btn:hover{
+background-color: #c30000;
+color:fff !important;
+}
+
+/* Footer */
+
+#footer{
+  background: rgba(0,0,0,1);
+  color:#fff;
+  font-family: Arvo;
+  font-size: 14px;
+}
+#footer .SocialMedia {
+  font-size: 30px;
+
+}
+
+#footer .SocialMedia i {
+  color: #fff;
+  padding-left: 10px;
+}
+
+/* Modal */
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+
+.portfolio-modal .btn{
+  margin-top: 50px;
+}
+
